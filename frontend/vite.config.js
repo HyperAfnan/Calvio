@@ -6,7 +6,7 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export default defineConfig(({ mode }) => {
    return {
-      base: "/calvio/",
+      base: "/Calvio/",
       plugins: [
          react({
             jsxImportSource:
