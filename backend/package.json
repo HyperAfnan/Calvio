@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.12.17",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.21.0",
+    "wrangler": "^4.4.0"
+  }
+}

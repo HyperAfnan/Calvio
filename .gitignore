@@ -1,11 +1,5 @@
-docs/Questions for college timetabler.md
+algorithm-microservice/serviceAccountKey.json
 algorithm-microservice/.venv
-.agents/
-.agent/
-.vscode/
-.gemini/
-.firebase/
-functions/
-function/
-serviceAccountKey.json
-
+.env
+node_modules/
+package-lock.json

@@ -1,7 +1,0 @@
-- time table locking with global lock system
-- if a subject is already set, and some fields are set in time table, it will automatically be considered as locked (toggle available)
-- manual subject locking
-- option for input for teacher via image 
-- time limit before a teacher can ask for a leave
-- option for input via excel sheet (done)
-- export timetable (both classwise and teacher wise)
