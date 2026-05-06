@@ -6,6 +6,7 @@ import { requestId } from 'hono/request-id';
 import { secureHeaders } from 'hono/secure-headers';
 
 import { createDatabase, type Database } from './db';
+import authRoutes from './routes/auth/index';
 
 type Bindings = {
   NODE_ENV?: string;
@@ -86,5 +87,8 @@ app.get('/api/health', (c) => {
       });
     });
 });
+
+// Mount auth routes
+app.route('/api/auth', authRoutes);
 
 export default app;
