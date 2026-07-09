@@ -1,1 +1,2 @@
-# Smart-Classroom-Timetable-Scheduler
+# Calvio - A Better Smart Classroom Timetable Scheduler
+
