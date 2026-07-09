@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "design-system-starter": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "skillPath": "skills/design-system-starter/SKILL.md",
+      "computedHash": "926f0a57017277d6c016f6067b40204c86826af0d9f7f9f7e7712857e4f4783b"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "7d44ebcc7415566fb6e7c10436230a39fa7e743ba97dbaf883432baf76d04e01"
+    }
+  }
+}
